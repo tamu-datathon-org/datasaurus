@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   title: 'Tamudatathon Guide',
   tagline: 'Guide to the Dataverse',
   url: 'https://tamudatathon.com',
-  baseUrl: '/docs/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'docs/img/favicon.ico',
