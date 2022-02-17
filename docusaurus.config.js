@@ -7,10 +7,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   title: 'Tamudatathon Guide',
   tagline: 'Guide to the Dataverse',
   url: 'https://tamudatathon.com',
-  baseUrl: '/docs/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'docs/img/favicon.ico',
   organizationName: 'tamu-datathon-org', // Usually your GitHub org/user name.
   projectName: 'datasaurus', // Usually your repo name.
 
@@ -44,7 +44,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         title: 'Tamudatathon',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'docs/img/logo.svg',
         },
         items: [
           {
