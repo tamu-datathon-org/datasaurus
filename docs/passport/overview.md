@@ -2,17 +2,8 @@
 sidebar_label: 'Overview'
 sidebar_position: 1
 ---
-# Passport
+# Overview
 
-Goal: Explain the purpose of Passport, features it provides, and how it's built.
+Passport serves as a participant check-in system for events that occur during TAMU Datathon. Inside it, participant data (e.g. years attended and dining attended) is updated and stored in [MongoDB](https://docs.mongodb.com/) when they attend an event during Datathon. 
 
-* Overview - Whys, Whats, Hows
-* Features - Brief summary
-* Technologies used to build this - Usage and documentation
-    - Packages/Libraries
-    - Frameworks
-
-* Deployment details - Hosting service, environment variables, config
-* FAQs - questions that occurred to you while learning about this repository
-* Repository specific material
-* How scanning and db updates work
+Extrapolating data from previous events allows us to have a general idea of attendance for future events. In turn, this helps us plan and budget more effectively for future events (e.g., not overspending or underspending on a dining event).
