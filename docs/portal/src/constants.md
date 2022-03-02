@@ -4,4 +4,5 @@ sidebar_position: 1
 ---
 # constants
 
-to be updated
+* constants for the value of 24 hours, and 15 minutes, both in seconds
+* Used in src/common/Card/Reminder/Reminder.tsx to give the user reminders

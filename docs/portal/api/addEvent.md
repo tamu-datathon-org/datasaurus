@@ -4,4 +4,5 @@ sidebar_position: 1
 ---
 # addEvent
 
-to be updated
+* adds an event using the specified format (TODO find out endpoint)
+* admin only

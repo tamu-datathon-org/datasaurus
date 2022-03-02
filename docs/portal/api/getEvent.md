@@ -4,4 +4,4 @@ sidebar_position: 2
 ---
 # getEvent
 
-to be updated
+gets an event (TODO find out endpoint)

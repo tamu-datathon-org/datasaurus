@@ -4,4 +4,5 @@ sidebar_position: 4
 ---
 # removeEvent
 
-to be updated
+* removes an event
+* admin only

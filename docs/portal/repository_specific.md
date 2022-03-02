@@ -4,4 +4,4 @@ sidebar_position: 5
 ---
 # Repository Specific Details
 
-to be updated
+* react-markdown is used to interface with markdown files (TODO confirm this)
