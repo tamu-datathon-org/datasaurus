@@ -1,7 +1,7 @@
 ---
-sidebar_label: 'Overview'
+sidebar_label: 'Card'
 sidebar_position: 1
 ---
-# Overview
+# Card
 
 to be updated
