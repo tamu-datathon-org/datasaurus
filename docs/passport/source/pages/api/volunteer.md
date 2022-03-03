@@ -1,8 +1,3 @@
----
-sidebar_label: 'volunteer.tsx'
-sidebar_position: 2
----
-
 # Contains the documentation for pages/api/volunteer.tsx
 
 ## Imports
@@ -15,11 +10,11 @@ sidebar_position: 2
 5. import { GatekeeperRequestError, User } from '../../components/UserProvider';
 ```
 
-1. Imported to help us with API requests and Responses
+1. Handles with API requests and Responses
 2. Helper file with self-explanatory function names
-3. Imported to help us with API requests and Responses
-4. Used to help authenticate the user route
-5. Used to help catch errors with [gatekeeper](https://github.com/tamu-datathon-org/gatekeeper)
+3. Handles us with API requests and Responses
+4. Authenticates the user route
+5. Catches errors with [gatekeeper](https://github.com/tamu-datathon-org/gatekeeper)
 
 ## Functions
 

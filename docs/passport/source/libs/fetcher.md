@@ -3,13 +3,13 @@
 ## Imports
 
 
-```ts title
+```ts
 1. import fetch from 'isomorphic-unfetch';
 2. import { VercelRequest } from '@vercel/node';
 ```
 
-1. This is imported as we needed a package to dynamically switch between JS 'fetch' and 'node-fetch' based on usage.
-2. This is imported so that we can send API requests to [Vercel](https://vercel.com/docs)
+1. Dynamically switches between JS 'fetch' and 'node-fetch' based on usage.
+2. Sends API requests to [Vercel](https://vercel.com/docs)
 
 
 ## Functions

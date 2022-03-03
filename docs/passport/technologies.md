@@ -2,16 +2,16 @@
 sidebar_label: 'Technologies'
 sidebar_position: 4
 ---
-# Technologies Used to Build This
+# Technologies
 
 ## General Technologies
-- [@vercel/node](https://vercel.com/docs/runtimes#official-runtimes/): Allows us to request and get a response from Vercel with a node.js runtime
-- [Express](https://expressjs.com/en/5x/api.html): Uses API routes with Next.js to create serverless functions
-- [Http-proxy](https://www.npmjs.com/package/http-proxy): Used to help us connect to the host through a proxy
-- [Isomorphic-unfetch](https://openbase.com/js/isomorphic-unfetch/documentation): Allows us to fetch resources from a string URL and perform actions accordingly.
-- [Moment](https://momentjs.com/docs/): Used to keep track of time for things like event start time
-- [Next](https://nextjs.org/docs): Used for dynamic routing, Rest API, server-side rendering etc.
-- [Next-connect](https://www.npmjs.com/package/next-connect): Used in our back-end for API routing
+- [@vercel/node](https://vercel.com/docs/runtimes#official-runtimes/): Requests and gets a response from Vercel with a node.js runtime
+- [express](https://expressjs.com/en/5x/api.html): Routes API with Next.js to create serverless functions
+- [http-proxy](https://www.npmjs.com/package/http-proxy): Connects to the host through a proxy
+- [isomorphic-unfetch](https://openbase.com/js/isomorphic-unfetch/documentation):  Dynamically switches between JS 'fetch' and 'node-fetch'
+- [moment](https://momentjs.com/docs/): Accesses date and time for things like event start time
+- [next](https://nextjs.org/docs): Dynamic routing, Rest API, server-side rendering etc.
+- [next-connect](https://www.npmjs.com/package/next-connect): Back-end for API routing
 
 ## Project Specific Technologies
-- [react-qr-reader](https://www.npmjs.com/package/react-qr-reader): Used to scan participant QR codes
+- [react-qr-reader](https://www.npmjs.com/package/react-qr-reader): Scans participant QR codes

@@ -1,15 +1,4 @@
----
-sidebar_label: 'index.tsx'
-sidebar_position: 1
----
-
 # Contains the documentation for pages/index.tsx
-
-:::danger Markdown issue
-
-If you look at the name of this file in the datasaurus repo, you will notice that it isn't called index because it has unintended effects, this may or may not be fixed later after discussion.
-
-:::
 
 ## Imports
 
@@ -23,14 +12,14 @@ If you look at the name of this file in the datasaurus repo, you will notice tha
 7. import moment from 'moment';
 8. const QrReader: any = dynamic(() => import('react-qr-reader'), { ssr: false });
 ```
-1. This import is from react and is used for aesthetic reasons
-2. This import is from react and is used for aesthetic reasons
-3. This import is to retrieve our org name 'TAMU Datathon'
-4. This import is to ensure that our Navbar is on the top of this page
-5. This import is to find out which user we are providing it to (if we decide to provide personalized stuff later)
-6. This import is for dynamic client-side scripting.
-7. This import is to have the ability to retrieve time (i.e, an event start time)
-8. This import is so that we can read QR codes with react (server side rendering is false)
+1. Imported from react for aesthetics
+2. Imported frmo react for aesthetics
+3. Retrieve our org name 'TAMU Datathon'
+4. Ensures Navbar is on the top of the page
+5. Finds out which user we are providing the page to (if we decide to provide personalized stuff later)
+6. Allows for dynamic client-side scripting.
+7. Retrieve time/date (i.e, an event start time)
+8. Reads QR codes with react (server side rendering is false)
 
 ## Functions
 

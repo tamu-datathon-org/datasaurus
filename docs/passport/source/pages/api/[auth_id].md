@@ -1,8 +1,3 @@
----
-sidebar_label: '[auth_id].tsx'
-sidebar_position: 1
----
-
 # Contains the documentation for pages/api/[auth_id].tsx
 
 ## Imports
@@ -15,11 +10,11 @@ sidebar_position: 1
 5. import { GatekeeperRequestError, User } from '../../components/UserProvider';
 ```
 
-1. Used to help us with API requests and API responses.
+1. Handles with API requests and API responses.
 2. Imported from our helper function, with self-explanatory function names.
-3. Used to help us with API requests and API responses.
-4. Used to help authenticate the route of our user.
-5. Used to handle errors received from [gatekeeper](https://github.com/tamu-datathon-org/gatekeeper)
+3. Handles with API requests and API responses.
+4. Authenticates the user route.
+5. Handles errors received from [gatekeeper](https://github.com/tamu-datathon-org/gatekeeper)
 
 ## Functions
 
@@ -87,6 +82,8 @@ If a user isn't registered (their passport data does not exist), then we create 
 
 -----
 
+**updateParticipantPassportData**
+
 ```ts
 const updateParticipantPassportData = async (req: NextApiRequest, res: NextApiResponse, user: User) => {
   const filteredVolunteers = await findQueriedObjects('volunteers', { userAuthId: user.authId });
@@ -109,6 +106,8 @@ const updateParticipantPassportData = async (req: NextApiRequest, res: NextApiRe
 This updates the participant's passport data in our DB.
 
 -----
+
+**addParticipantAttendedEvents**
 
 ```ts
 const addParticipantAttendedEvents = async (req: NextApiRequest, res: NextApiResponse, user: User) => {
@@ -134,6 +133,8 @@ const addParticipantAttendedEvents = async (req: NextApiRequest, res: NextApiRes
 This adds an event attended to the participant's passport data in our DB.
 
 -----
+
+**deleteParticipantAttendedEvents**
 
 ```ts
 const deleteParticipantAttendedEvents = async (req: NextApiRequest, res: NextApiResponse, user: User) => {

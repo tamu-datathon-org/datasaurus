@@ -6,9 +6,9 @@
 2. import { User, GatekeeperRequestError } from '../components/UserProvider';
 3. import { getBaseUrl, authenticatedFetch } from './fetcher';
 ```
-1. This import is so that we can communicate with [Vercel](https://vercel.com/docs)
-2. This is imported to verify if there's a [gatekeeper](https://github.com/tamu-datathon-org/gatekeeper) error
-3. These functions are imported from our [fetcher](fetcher) to ensure that the URL they are trying to reach is valid
+1. Provides communication with [Vercel](https://vercel.com/docs)
+2. Verifies if there's a [gatekeeper](https://github.com/tamu-datathon-org/gatekeeper) error
+3. Imported from our [fetcher](fetcher) to ensure that the URL they are trying to reach is valid
 
 ## Functions
 
