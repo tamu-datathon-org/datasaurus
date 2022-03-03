@@ -13,7 +13,7 @@
 8. const QrReader: any = dynamic(() => import('react-qr-reader'), { ssr: false });
 ```
 1. Imported from react for aesthetics
-2. Imported frmo react for aesthetics
+2. Imported from react for aesthetics
 3. Retrieve our org name 'TAMU Datathon'
 4. Ensures Navbar is on the top of the page
 5. Finds out which user we are providing the page to (if we decide to provide personalized stuff later)
