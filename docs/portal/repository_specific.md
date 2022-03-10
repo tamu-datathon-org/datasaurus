@@ -4,4 +4,6 @@ sidebar_position: 5
 ---
 # Repository Specific Details
 
-* react-markdown is used to interface with markdown files (TODO confirm this)
+* react-markdown
+    - interface with markdown files (TODO confirm this)
+    - [https://www.npmjs.com/package/react-markdown](https://www.npmjs.com/package/react-markdown)
