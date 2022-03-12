@@ -14,7 +14,7 @@
 ```
 1. Imported from react for aesthetics
 2. Imported from react for aesthetics
-3. Retrieve our org name 'TAMU Datathon'
+3. Retrieves our org name 'TAMU Datathon'
 4. Ensures Navbar is on the top of the page
 5. Finds out which user we are providing the page to (if we decide to provide personalized stuff later)
 6. Allows for dynamic client-side scripting.

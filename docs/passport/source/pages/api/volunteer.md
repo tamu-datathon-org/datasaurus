@@ -10,9 +10,9 @@
 5. import { GatekeeperRequestError, User } from '../../components/UserProvider';
 ```
 
-1. Handles with API requests and Responses
+1. Handles API requests and Responses
 2. Helper file with self-explanatory function names
-3. Handles us with API requests and Responses
+3. Handles API requests and Responses
 4. Authenticates the user route
 5. Catches errors with [gatekeeper](https://github.com/tamu-datathon-org/gatekeeper)
 
